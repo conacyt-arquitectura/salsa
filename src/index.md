@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Software Architecture for CONACYT
-actionText: Quick Start →
+heroImage: /assets/img/salsa.png
+tagline: Arquitectura de software para CONACYT
+actionText: Comenzar →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Daniel with ❤️
+- title: Paradigma
+  details: Paradigma de desarrollo de sistemas de software en SALSA
+- title: Prácticas
+  details: Lista de prácticas para el desarrollo de sistemas de software en SALSA
+- title: Arquitectura de software
+  details: Arquitectura de software para salsa
+footer: SALSA
 ---

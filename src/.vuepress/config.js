@@ -1,10 +1,13 @@
 const { description } = require('../../package')
 
 module.exports = {
+
+  lang: 'es-MX', // this will be set as the lang attribute on <html>
+
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Salsa',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -32,31 +35,30 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    search: true,
+    searchMaxSuggestions: 10,
+    smoothScroll: true,
+    logo: '/assets/img/salsa-icon.png',
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Paradigma',
+        link: '/paradigma/'
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Prácticas',
+        link: '/practicas/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Arquitectura',
+        link: '/arquitectura/',
+      },
+      {
+        text: 'CONACyT',
+        link: 'https://www.conacyt.gob.mx/'
       }
     ],
     sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
+
     }
   },
 
@@ -66,5 +68,6 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@vuepress/plugin-smooth-scroll',
   ]
 }
