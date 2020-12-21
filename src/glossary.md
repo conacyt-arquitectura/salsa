@@ -17,7 +17,7 @@ terms:
     Modelo Organizacional: "Corresponde a Modelo Empresarial, en inglés Enterprise Model"
     Proceso Organizacional: "Corresponde a Proceso de Negocio o Caso de Uso de Negocio, en inglés Business Process o Business Use Case"
     REST: "Transferencia de Estado Representacional, del inglés Representational State Transfer. Es un patrón de diseño para sistemas escalables a tamaño global, definido en la tesis doctoral de Roy Thomas Fielding http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm"
-    CONACyT: "Comisión Nacional Bancaria y de Valores, a través del administrador del contrato"
+    CONACyT: "Consejo Nacional de Ciencia y Tecnologia"
     Data Lake: "Un repositorio de almacenamiento que contiene una gran cantidad de datos sin procesar hasta que son necesarios. Mientras que un almacén de datos jerárquico almacena información en archivos o folders, una data lake usa un esquema de arquitectura plano para el almacenamiento de datos"
     ETL: "Son las siglas en inglés para el proceso de extraer, transformar y cargar información (Extract, Transform, Load), tres funciones de bases de datos que se combinan en una herramienta para obtener información de una base de datos (extraer), limpiarla y actualizarla (transformar), para finalmente insertarla en otra base de datos (cargar)"
 ---
