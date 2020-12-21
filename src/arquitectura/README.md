@@ -5,7 +5,10 @@ tags:
   - software
 ---
 
+
 # Introducción
+
+![Arquitectura Salsa](/assets/img/salsa-general.png)
 
 ## Propósito y Alcance
 
