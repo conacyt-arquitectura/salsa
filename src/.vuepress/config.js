@@ -49,6 +49,10 @@ module.exports = {
         link: '/'
       },
       {
+        text: 'Glosario',
+        link: '/glossary'
+      },
+      {
         text: 'Paradigma',
         link: '/paradigma/'
       },
@@ -76,5 +80,6 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    'vuepress-plugin-glossary',
   ]
 }
