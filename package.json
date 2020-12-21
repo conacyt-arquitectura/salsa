@@ -1,0 +1,19 @@
+{
+  "name": "salsa",
+  "version": "0.0.1",
+  "description": "Software Architecture for CONACYT",
+  "main": "index.js",
+  "authors": {
+    "name": "Daniel",
+    "email": "daniel.cortes@conacyt.mx"
+  },
+  "repository": "https://scm.crip.conacyt.mx//salsa",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
