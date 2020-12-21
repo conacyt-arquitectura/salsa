@@ -1,10 +1,10 @@
 ---
-sidebar: auto
 tags:
-  - arquitectura
-  - software
+  - vista
+  - paradigma
+  - enfoque
+  - perspectiva
 ---
-
 
 # Introducción
 

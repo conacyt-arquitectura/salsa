@@ -41,7 +41,11 @@ module.exports = {
     lastUpdated: false,
     search: true,
     searchMaxSuggestions: 10,
+    searchPlaceholder: 'Buscar...',
     smoothScroll: true,
+    displayAllHeaders: true,
+    sidebarDepth: 1,
+    collapsable: true,
     logo: '/assets/img/salsa-icon.png',
     nav: [
       {
@@ -53,16 +57,12 @@ module.exports = {
         link: '/glossary'
       },
       {
-        text: 'Paradigma',
-        link: '/paradigma/'
-      },
-      {
-        text: 'Prácticas',
-        link: '/practicas/'
-      },
-      {
-        text: 'Arquitectura',
-        link: '/arquitectura/',
+        text: 'Salsa',
+        items: [
+          { text: 'Paradigma', link: '/paradigma/' },
+          { text: 'Prácticas', link: '/practicas/' },
+          { text: 'Arquitectura', link: '/arquitectura/' }
+        ]
       },
       {
         text: 'CONACyT',
@@ -70,7 +70,10 @@ module.exports = {
       }
     ],
     sidebar: {
-
+      '/arquitectura/': [
+        '',
+        '02-plataforma'
+      ],
     }
   },
 
