@@ -21,7 +21,11 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat&display=swap' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap' }],
+    ['link', { rel: 'stylesheet', href: '"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap' }],
+    ['link', { rel: 'icon', href: '/assets/img/salsa-icon.png' }],
   ],
 
   /**
@@ -40,6 +44,10 @@ module.exports = {
     smoothScroll: true,
     logo: '/assets/img/salsa-icon.png',
     nav: [
+      {
+        text: 'Home',
+        link: '/'
+      },
       {
         text: 'Paradigma',
         link: '/paradigma/'
