@@ -57,6 +57,10 @@ module.exports = {
         link: '/glossary'
       },
       {
+        text: 'Notación',
+        link: '/notacion'
+      },
+      {
         text: 'Salsa',
         items: [
           { text: 'Paradigma', link: '/paradigma/' },
@@ -72,7 +76,9 @@ module.exports = {
     sidebar: {
       '/arquitectura/': [
         '',
-        '02-plataforma'
+        '02-plataforma',
+        '03-premisas',
+        '04-principios'
       ],
     }
   },
@@ -84,5 +90,9 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     'vuepress-plugin-glossary',
+    ['container', { type: 'informacion', defaultTitle: 'Información', }],
+    ['container', { type: 'ejemplo', defaultTitle: 'Ejemplo', }],
+    ['container', { type: 'nota', defaultTitle: 'Nota', }],
+    ['container', { type: 'malaPractica', defaultTitle: 'Mala práctica', }],
   ]
 }
