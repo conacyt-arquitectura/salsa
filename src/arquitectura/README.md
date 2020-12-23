@@ -11,7 +11,6 @@ tags:
 ![Arquitectura Salsa](/assets/img/salsa-general.png)
 
 ## Propósito y Alcance
-
 ### Consideraciones inciales
 
 El presente documento, describe los principales elementos que conforman a la arquitectura de software para la plataforma SALSA de CONACyT, fundamentada en los requerimientos, principios, restricciones y metas que la arquitectura del sistema deberá de cumplir. No obstante, se debe advertir que la versión actual del documento de la arquitectura cubre los elementos necesarios y mínimos para cubrir una prueba de concepto de la plataforma, por lo tanto, está sujeta a cambios que se pueden derivar de los hallazgos encontrados durante las pruebas. En su caso, se deberá de genera el documento de recomendaciones de arquitectura, en donde se detalle un plan de evolución de la arquitectura actual a la arquitectura deseada, con una visión a 10 años. Derivado de lo anterior, todos los elementos que se describen en este documento, son susceptibles a evolución y se consideran no completos.
