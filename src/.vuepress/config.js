@@ -90,6 +90,7 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     'vuepress-plugin-glossary',
+    'vuepress-plugin-export',
     'flowchart',
     ['container', { type: 'informacion', defaultTitle: 'Información', }],
     ['container', { type: 'ejemplo', defaultTitle: 'Ejemplo', }],
