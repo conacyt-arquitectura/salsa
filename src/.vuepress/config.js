@@ -78,7 +78,11 @@ module.exports = {
         '',
         '02-plataforma',
         '03-premisas',
-        '04-principios'
+        '04-principios',
+        '05-vistas',
+        '06-perspectivas',
+        '07-justificacion',
+        'A-anexo',
       ],
     }
   },
@@ -91,6 +95,7 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
     'vuepress-plugin-glossary',
     'vuepress-plugin-export',
+    'vuepress-plugin-global-toc',
     'flowchart',
     ['container', { type: 'informacion', defaultTitle: 'Información', }],
     ['container', { type: 'ejemplo', defaultTitle: 'Ejemplo', }],

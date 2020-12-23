@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "vuepress-plugin-export": "^0.2.0",
+    "vuepress-plugin-global-toc": "^1.0.1",
     "vuepress-plugin-smooth-scroll": "0.0.10"
   }
 }
