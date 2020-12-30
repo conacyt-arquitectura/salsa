@@ -42,7 +42,7 @@ Si existe una rama release cuando ocurre un bug en producción, entonces:
 
 ## Diagrama
 
-![](/assets/images/git/branch-hotfixes.png)
+![](/assets/img/git/branch-hotfixes.png)
 
 ## Comandos
 

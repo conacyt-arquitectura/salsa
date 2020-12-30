@@ -32,7 +32,7 @@ Esta rama **siempre** se llama `master`
 
 ## Diagrama
 
-![](/assets/images/git/branch-develop.png)
+![](/assets/img/git/branch-develop.png)
 
 ## Comandos
 

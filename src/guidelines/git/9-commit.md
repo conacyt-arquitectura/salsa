@@ -31,4 +31,4 @@ en dónde `<type>` puede ser alguno de los siguientes:
 * `style`: Cambios que sólo afectan el significado del código (espacios en blanco, formato, semi-colons faltantes, etc)
 * `test`: Agregar pruebas o corregir las existentes
 
-en dónde `<scope>` puede ser alguno de los siguientes:
+en dónde `<scope>` hace referencia a un componente, o elemento que es afectado:

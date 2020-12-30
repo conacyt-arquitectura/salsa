@@ -27,7 +27,7 @@ Siempre se llamará `develop`
 
 ## Diagrama
 
-![](/assets/images/git/branch-develop.png)
+![](/assets/img/git/branch-develop.png)
 
 ## Comandos
 

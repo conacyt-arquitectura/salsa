@@ -35,7 +35,7 @@ Ejemplo:
 
 ## Diagrama
 
-![](/assets/images/git/branch-features.png)
+![](/assets/img/git/branch-features.png)
 
 ## Comandos
 

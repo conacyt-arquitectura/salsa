@@ -14,7 +14,7 @@ El flujo de trabajo consta de la definición de los siguientes elementos:
 
 ## Roles
 
-El modelo de desarrollo involucra dos roles; **Master** y **Developer**, mismos que se describen a continuación:
+El modelo de desarrollo involucra dos roles; **master** y **develop**, mismos que se describen a continuación:
 
 **Master**
 
@@ -38,4 +38,4 @@ El modelo de desarrollo involucra dos roles; **Master** y **Developer**, mismos 
 
 Las actividades que se llevan a cabo en el modelo de desarrollo se ilustran en la siguiente gráfica:
 
-![](/assets/images/git/diagram.png)
+![](/assets/img/git/diagram.png)

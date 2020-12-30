@@ -40,7 +40,7 @@ Ejemplo:
 
 ## Diagrama
 
-![](/assets/images/git/branch-hotfixes.png)
+![](/assets/img/git/branch-hotfixes.png)
 
 ## Comandos
 
