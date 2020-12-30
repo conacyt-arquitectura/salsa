@@ -38,7 +38,7 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: true,
     search: true,
     searchMaxSuggestions: 10,
     searchPlaceholder: 'Buscar...',
@@ -105,6 +105,9 @@ module.exports = {
         '11-generales',
         '12-notas',
       ],
+      '/guidelines/database/': [
+        '',
+      ],
     }
   },
 
@@ -118,6 +121,8 @@ module.exports = {
     'vuepress-plugin-export',
     'vuepress-plugin-global-toc',
     'flowchart',
+    ['container', { type: 'resaltar', defaultTitle: '', }],
+    ['container', { type: 'advertencia', defaultTitle: '', }],
     ['container', { type: 'informacion', defaultTitle: 'Información', }],
     ['container', { type: 'ejemplo', defaultTitle: 'Ejemplo', }],
     ['container', { type: 'nota', defaultTitle: 'Nota', }],
