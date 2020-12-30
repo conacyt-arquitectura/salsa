@@ -67,6 +67,14 @@ module.exports = {
           { text: 'Prácticas', link: '/practicas/' },
           { text: 'Arquitectura', link: '/arquitectura/' }
         ]
+      }, {
+        text: 'Lineamientos',
+        items: [
+          { text: 'Git', link: '/guidelines/git/' },
+          { text: 'VueJs', link: '/guidelines/vuejs/' },
+          { text: 'Java', link: '/guidelines/java/' },
+          { text: 'Base de datos', link: '/guidelines/database/' }
+        ]
       },
       {
         text: 'CONACyT',
@@ -83,6 +91,19 @@ module.exports = {
         '06-perspectivas',
         '07-justificacion',
         'A-anexo',
+      ],
+      '/guidelines/git/': [
+        '',
+        '1-elementos-del-flujo',
+        '2-rama-descripcion',
+        '4-rama-master',
+        '5-rama-develop',
+        '6-rama-feature',
+        '7-rama-release',
+        '8-rama-hotfixes',
+        '9-versionamiento',
+        '11-generales',
+        '12-notas',
       ],
     }
   },
