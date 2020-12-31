@@ -2,14 +2,16 @@
 home: true
 heroImage: /assets/img/salsa.png
 tagline: Arquitectura de software para CONACYT
-actionText: Comenzar →
-actionLink: /guide/
+actionText: Introducción →
+actionLink: /introduccion/
 features:
-- title: Paradigma
-  details: Paradigma de desarrollo de sistemas de software en SALSA
-- title: Prácticas
+- title: Paradigma SALSA
+  details: Paradigma de desarrollo de sistemas de software en el CONACyT
+- title: Prácticas SALSA
   details: Lista de prácticas para el desarrollo de sistemas de software en SALSA
-- title: Arquitectura de software
-  details: Arquitectura de software para salsa
-footer: SALSA
+- title: Plataforma SALSA
+  details: Plataforma para el desarrollo de sistemas de software en el CONACyT
+footer: Arquitectura de Software
 ---
+
+<Posts page="_posts"></Posts>

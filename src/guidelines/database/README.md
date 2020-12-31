@@ -6,7 +6,9 @@ tags:
 
 # Lineamientos para PostgreSQL
 
-Los lineamientos descritos en este documento se centran principalmente en la plataforma :Salsa: y las bases de datos de [PostgreSQL] 12 y [Oracle]
+![Arquitectura Salsa](/assets/img/salsa-database.png)
+
+Los lineamientos descritos en este documento se centran principalmente en la plataforma :SALSA: y las bases de datos de [PostgreSQL] 12 y [Oracle]
 
 
 ## Utilizar minúsculas
