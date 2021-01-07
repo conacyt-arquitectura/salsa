@@ -24,7 +24,18 @@ module.exports.themeConfig = {
         }, {
             text: 'Cuenta',
             items: [
-                { text: 'Avatar', link: '/avatar/' }
+                {
+                    text: 'Avatar', items: [
+                        { text: 'otro', link: '/avatar/' },
+                        { text: 'otros', link: '/avatar/' }
+                    ]
+                },
+                {
+                    text: 'Otro avatar', items: [
+                        { text: 'otro', link: '/avatar/' },
+                        { text: 'otros', link: '/avatar/' }
+                    ]
+                }
             ]
         },
         {

@@ -14,4 +14,5 @@ module.exports.pluginsConfig = [
     ['container', { type: 'ejemplo', defaultTitle: 'Ejemplo', }],
     ['container', { type: 'nota', defaultTitle: 'Nota', }],
     ['container', { type: 'malaPractica', defaultTitle: 'Mala práctica', }],
+    ['container', { type: 'actividad', defaultTitle: 'Activdad', }],
 ]

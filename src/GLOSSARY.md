@@ -22,6 +22,8 @@ terms:
     ETL: "Son las siglas en inglés para el proceso de extraer, transformar y cargar información (Extract, Transform, Load), tres funciones de bases de datos que se combinan en una herramienta para obtener información de una base de datos (extraer), limpiarla y actualizarla (transformar), para finalmente insertarla en otra base de datos (cargar)"
     Git: "es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora incluyendo coordinar el trabajo que varias personas realizan sobre archivos compartidos en github"
     SALSA: "Es es un movimiento tecnológico y revolucionario surgido en el interior del CONACyT cuyo objetivo es establecer una utopía entre el talento, tecnología, procesos, burocracia y necesidades de negocio mediante la eliminación del status quo establecido para cambiarlo por un ambiente más innovador y de mayor agilidad. SALSA se compone de tres elementos: un paradigma, un conjunto de prácticas y una arquitectura de última generación."
+    CRIP: "Coordinación de Repositorios, Investigación y Prospectiva"
+    DAMCAD: "Dirección de Arquitectura y Modelado para Cómputo Aplicado a Datos"
 ---
 
 # Glosario
