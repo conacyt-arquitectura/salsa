@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /assets/img/salsa.png
-tagline: Arquitectura de software para CONACYT
+tagline: Referente tecnológico del CONACYT
 actionText: Introducción →
 actionLink: /introduccion/
 features:
