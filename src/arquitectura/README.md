@@ -1,4 +1,5 @@
 ---
+sidebarDepth: 3
 tags:
   - vista
   - paradigma

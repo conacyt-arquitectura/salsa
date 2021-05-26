@@ -21,31 +21,18 @@ module.exports.themeConfig = {
         {
             text: 'Home',
             link: '/'
-        }, {
-            text: 'Cuenta',
-            items: [
-                {
-                    text: 'Avatar', items: [
-                        { text: 'otro', link: '/avatar/' },
-                        { text: 'otros', link: '/avatar/' }
-                    ]
-                },
-                {
-                    text: 'Otro avatar', items: [
-                        { text: 'otro', link: '/avatar/' },
-                        { text: 'otros', link: '/avatar/' }
-                    ]
-                }
-            ]
+        },
+        {
+            text: 'Glosario',
+            link: '/glossary'
         },
         {
             text: 'Salsa',
             items: [
-                { text: 'Glosario', link: '/glossary' },
-                { text: 'Notación', link: '/notacion' },
-                { text: 'Paradigma', link: '/paradigma/' },
+                { text: 'Paradigmas', link: '/paradigmas/' },
                 { text: 'Prácticas', link: '/practicas/' },
-                { text: 'Arquitectura', link: '/arquitectura/' }
+                { text: 'Plataforma', link: '/arquitectura/' },
+                { text: 'Radar tecnológico', link: '/radar/' }
             ]
         }, {
             text: 'Lineamientos',
@@ -86,6 +73,9 @@ module.exports.themeConfig = {
             '12-notas',
         ],
         '/guidelines/database/': [
+            '',
+        ],
+        '/paradigmas/': [
             '',
         ],
     }
