@@ -32,7 +32,7 @@ module.exports.themeConfig = {
                 { text: 'Paradigmas', link: '/paradigmas/' },
                 { text: 'Prácticas', link: '/practicas/' },
                 { text: 'Plataforma', link: '/arquitectura/' },
-                { text: 'Radar tecnológico', link: '/radar/' }
+                { text: 'Tecnología', link: '/tecnologia/' }
             ]
         }, {
             text: 'Lineamientos',
@@ -76,6 +76,9 @@ module.exports.themeConfig = {
             '',
         ],
         '/paradigmas/': [
+            '',
+        ],
+        '/tecnologia/': [
             '',
         ],
     }

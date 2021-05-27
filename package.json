@@ -7,7 +7,7 @@
     "name": "Daniel",
     "email": "daniel.cortes@conacyt.mx"
   },
-  "repository": "https://scm.crip.conacyt.mx//salsa",
+  "repository": "https://scm.crip.conacyt.mx/salsa",
   "scripts": {
     "export:pdf": "vuepress export src",
     "dev": "vuepress dev src",
