@@ -29,6 +29,7 @@ jobs:
       - kaniko-publish/check
       - kaniko-publish/build-and-push:
           deploy: false
+          registry: registry.crip.conacyt.mx
 workflows:
   sample:
     jobs:
