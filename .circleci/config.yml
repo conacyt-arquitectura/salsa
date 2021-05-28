@@ -34,7 +34,7 @@ jobs:
           command: echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
       - run:
           name: Test
-          command: ls -R /home/circleci/project ; ls $CIRCLE_WORKING_DIRECTORY
+          command: ls ; ls -R /home/circleci/project ; ls $CIRCLE_WORKING_DIRECTORY
       - run:
           name: BuildImage
           command: >-
