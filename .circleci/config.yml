@@ -26,7 +26,8 @@ workflows:
       - kaniko-publish/publish:
           registry: registry.crip.conacyt.mx
           image: conacyt-arquitectura/salsa
-          tag: latest 
+          tag: latest
+          image_tag: latest
           before_build:
             - restore_cache:
                 keys:
