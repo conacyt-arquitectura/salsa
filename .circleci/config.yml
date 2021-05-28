@@ -34,13 +34,13 @@ jobs:
           command: echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
       - run:
           name: Test
-          command: ls $CIRCLE_WORKING_DIRECTORY
+          command: ls /home/circleci/project
       - run:
           name: BuildImage
           command: >-
             /kaniko/executor
-            --context $CIRCLE_WORKING_DIRECTORY
-            --dockerfile $CIRCLE_WORKING_DIRECTORY/DockerFile
+            --context /home/circleci/project
+            --dockerfile /home/circleci/project/DockerFile
             --destination $CI_REGISTRY/salsa:latest
 workflows:
   sample:
