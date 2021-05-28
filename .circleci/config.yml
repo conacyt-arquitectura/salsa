@@ -27,11 +27,18 @@ jobs:
           keys:
             - dist-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
       - run:
+          name: Build dir
+          command: mkdir -p /kaniko/.docker
+      - run:
+          name: Auth setup
+          command: echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+      - run:
           name: BuildImage
           command: >-
             /kaniko/executor
-            --no-push
-            --destination registry.crip.conacyt.mx/salsa:latest
+            --context $CIRCLE_WORKING_DIRECTORY
+            --dockerfile $CIRCLE_WORKING_DIRECTORY/DockerFile
+            --destination $CI_REGISTRY/salsa:latest
 workflows:
   sample:
     jobs:
@@ -41,7 +48,6 @@ workflows:
             branches:
               only:
                 - master
-                - develop
           requires:
             - build-dist
 
