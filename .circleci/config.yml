@@ -27,9 +27,10 @@ jobs:
           keys:
             - dist-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
       - kaniko-publish/check
-      - kaniko-publish/build-and-push:
-          deploy: false
+      - kaniko-publish/publish:
           registry: registry.crip.conacyt.mx
+          image: conacyt-arquitectura/salsa
+          tag: latest-develop
 workflows:
   sample:
     jobs:
