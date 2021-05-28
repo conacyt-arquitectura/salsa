@@ -2,7 +2,7 @@ version: 2.1
 
 orbs:
   node: circleci/node@4.1
-  kaniko-publish: glenjamin/kaniko-publish@0.0.4
+  kaniko-publish: freeletics/kaniko-publish@0.2.0
 
 jobs:
   build-dist:
@@ -27,7 +27,7 @@ jobs:
           keys:
             - dist-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
       - kaniko-publish/check
-      - kaniko-publish/publish:
+      - kaniko-publish/build-and-push:
           registry: registry.crip.conacyt.mx
           image: conacyt-arquitectura/salsa
           tag: latest-develop
