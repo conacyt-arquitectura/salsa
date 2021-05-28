@@ -33,14 +33,14 @@ jobs:
           name: Auth setup
           command: echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
       - run:
-          name: Test
-          command: ls ; ls -R /home/circleci/project ; ls $CIRCLE_WORKING_DIRECTORY
+          name: Move files
+          command: mkdir -p src/.vuepress ; mv /home/circleci/project/src/.vuepress/dist src/.vuepress
       - run:
           name: BuildImage
           command: >-
             /kaniko/executor
-            --context /home/circleci/project
-            --dockerfile /home/circleci/project/DockerFile
+            --context $PWD
+            --dockerfile $PWD/DockerFile
             --destination $CI_REGISTRY/salsa:latest
 workflows:
   sample:
