@@ -30,7 +30,7 @@ jobs:
       - kaniko-publish/build-and-push:
           registry: registry.crip.conacyt.mx
           image: conacyt-arquitectura/salsa
-          tag: latest-develop
+          tag: latest
 workflows:
   sample:
     jobs:
@@ -39,7 +39,7 @@ workflows:
           filters:
             branches:
               only:
-                - develop
+                - master
           requires:
             - build-dist
 
