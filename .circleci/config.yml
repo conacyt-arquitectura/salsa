@@ -19,27 +19,21 @@ jobs:
           paths:
             - src/.vuepress/dist
 
-  build-docker:
-    executor: kaniko-publish/kaniko
-    steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - dist-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
-      - kaniko-publish/check
-      - kaniko-publish/build-and-push:
-          registry: registry.crip.conacyt.mx
-          image: conacyt-arquitectura/salsa
-          tag: latest
 workflows:
   sample:
     jobs:
       - build-dist
-      - build-docker:
+      - kaniko-publish/publish:
+          registry: registry.crip.conacyt.mx
+          image: conacyt-arquitectura/salsa
+          tag: latest 
+          before_build:
+            - restore_cache:
+                keys:
+                  - dist-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
           filters:
             branches:
               only:
                 - master
           requires:
             - build-dist
-
